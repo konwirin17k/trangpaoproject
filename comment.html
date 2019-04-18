@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>องค์การบริหารส่วนจังหวัดตรัง</title>
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="js+pop/custom.css">
+    <script src="js+pop/jquery-3.3.1.min.js"></script>
+    <script src="js+pop/popper_1_14_3.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js+pop/custom.js"></script>
+
+</head>
+
+<body>
+    <div class="container-fluid ">
+        <div class="row">
+            <img src="img/ban-img/ban.png" width="100%">
+            <br><br>
+        </div>
+    </div>
+    <div class="container contact-form">
+        <br><br>
+        <div class="row">
+            <div class="col-12 ">
+                <form action="ins_comment.php" method="POST">
+                    <div class="h1">แสดงความคิดเห็น<br>
+                        <hr>
+                    </div>
+
+                    <br><br><br>
+                    <div class="form-group">
+                        <h3>ชื่อ-สกุล</h3>
+                        <input type="text"  class="form-control" name="name">
+                    </div>
+
+                    <div class="form-group">
+                        <h3>E-mail</h3>
+                        <input type="text" class="form-control" name="email">
+                    </div>
+
+                    <div class="form-group">
+                        <h3>ความคิดเห็น</h3>
+                        <textarea class="form-control" rows="7" name="comment"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                            data-target="#exampleModalCenter">
+                            แสดงความคิดเห็น
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">
+                                            <font color="black">แสดงความคิดเห็น</font>
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <font color="black">คุณต้องการแสดงความคิดเห็นหรือไม่</font>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">ปิด</button>
+                                        <button type="submit" class="btn btn-primary">ยืนยัน</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+
+                <div class="col-4 ">
+
+                    </div>
+                    <div class="col-4 ">
+        
+                    </div>
+                    <div class="col-4 ">
+                        <a href="index.html"> <img src="img/btn/h.png" width="50%" class="float-right">
+                        </a>
+                    </div>
+        </div>
+    </div>
+
+</body>
+<footer>
+    <br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+
+    <div class="row">
+        <div class="col footer">
+            <h5><br>องค์การบริหารส่วนจังหวัดตรัง ถนนพัทลุง อำเภอเมือง จังหวัดตรัง 92000<br>
+                โทรศัพท์ 075-218262 ต่อ 260,245</h5>
+        </div>
+    </div>
+</footer>
+
+</html>
